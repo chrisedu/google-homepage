@@ -1,0 +1,87 @@
+/* Google Sverige */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+#container {
+width: 580px
+margin: 150px auto 0;
+text-align: center;
+}
+
+
+h1#Logo {
+    width: 550px;
+    height: 220px;
+    background: url('css/google.png') top left no-repeat;
+    background-size: 580px;
+    text-indent: -9999px;
+    margin:0 auto;
+  }
+
+  input[type="search"] {
+    width: 566px;
+    padding: 7px;
+    margin: 25px 0 18px;
+    border: solid 1px #ccc;
+    font-size: 16px;
+
+  }
+
+
+  input[type="submit"] {
+    background: #eee;
+    color: #333;
+    border: solid 1px #ccc;
+    padding: 5px;
+    font-size: 11px
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0 5px;
+  }
+
+  small {
+    display: block;
+    margin: 10px 0 0 0;
+    font-size: 15px;
+  }
+nav#header {text-align: right;
+padding: 20px;}
+
+
+  nav#header ul li {
+    display: inline;
+  }
+
+  nav#header ul li a,
+  footer nav ul li a {
+    color: #555;
+    text-decoration: underline: none;
+    padding: 10px;
+  }
+
+  footer {
+    background: #eee;
+    position: fixed;
+    bottom: 15px;
+    width: 100%
+  }
+  footer nav ul li {
+    display: inline;
+  }
+
+footer nav ul {
+  float: left;
+}
+
+footer nav ul.right {
+  float: right
+
+}
